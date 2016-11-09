@@ -1,0 +1,23 @@
+/*Game Board Styl*/
+
+#gameBoard {
+  background: #ccc;
+  border: #999 1px solid;
+  width: 620px;
+  height: 620px;
+  padding: 24px;
+  margin: 0px auto;
+}
+
+#gameBoard > div {
+  background: blue;
+  border: #000 1px solid;
+  width: 78px;
+  height: 78px;
+  float: left;
+  margin: 10px;
+  padding: 27px;
+  font-size: 64px;
+  cursor: pointer;
+  text-align: center;
+}
